@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/enlarge_image_popup"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/large_astro_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/cow" />
+
+    <ImageView
+        android:id="@+id/dismiss_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/large_astro_image"
+        android:layout_alignRight="@+id/large_astro_image"
+        android:layout_alignTop="@+id/large_astro_image"
+        android:src="@android:drawable/ic_delete"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/view_profile_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/astro_view_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="View Profile"
+            android:textColor="@color/text_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

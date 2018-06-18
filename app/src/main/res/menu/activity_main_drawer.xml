@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile_update"
+            android:icon="@drawable/update_profile"
+            android:title="@string/profile_update"
+            android:visible="false" />
+        <item
+            android:id="@+id/profile_upgrade"
+            android:icon="@drawable/upgrade_profile"
+            android:title="@string/profile_upgrade"
+            android:visible="false" />
+        <item
+            android:id="@+id/find_cattle"
+            android:icon="@drawable/search"
+            android:title="@string/find_a_cattle"
+            android:visible="true" />
+        <item
+            android:id="@+id/post_cattle"
+            android:icon="@drawable/post_cattle"
+            android:title="@string/post_a_cattle"
+            android:visible="true" />
+        <item
+            android:id="@+id/my_account"
+            android:icon="@drawable/my_account"
+            android:title="@string/my_account"
+            android:visible="false" />
+        <item
+            android:id="@+id/my_post"
+            android:icon="@drawable/my_post"
+            android:title="@string/my_post"
+            android:visible="false" />
+        <item
+            android:id="@+id/user_request"
+            android:icon="@drawable/user"
+            android:title="@string/user_request"
+            android:visible="false" />
+        <item
+            android:id="@+id/bidding_history"
+            android:icon="@drawable/bidding_history"
+            android:title="@string/bidding_history"
+            android:visible="false" />
+        <item
+            android:id="@+id/cattle_query"
+            android:icon="@drawable/user"
+            android:title="@string/cattle_query"
+            android:visible="false" />
+        <item
+            android:id="@+id/doctor"
+            android:icon="@drawable/find_doctor_2"
+            android:title="@string/doctor"
+            android:visible="false" />
+        <item
+            android:id="@+id/total_request"
+            android:icon="@drawable/user"
+            android:title="@string/total_request"
+            android:visible="false" />
+        <item
+            android:id="@+id/gaushala"
+            android:icon="@drawable/gaushala"
+            android:title="@string/gaushala"
+            android:visible="false" />
+        <item
+            android:id="@+id/notifications"
+            android:icon="@drawable/notification"
+            android:title="@string/notifications"
+            android:visible="true" />
+        <item
+            android:id="@+id/offers"
+            android:icon="@drawable/user"
+            android:title="@string/offers"
+            android:visible="false" />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/earn_share"
+            android:title="Share"
+            android:visible="true" />
+        <item
+            android:id="@+id/sign_out"
+            android:icon="@drawable/sign_out"
+            android:title="@string/sign_out"
+            android:visible="true" />
+        <item
+            android:id="@+id/sign_in"
+            android:icon="@drawable/sign_in"
+            android:title="@string/sign_in"
+            android:visible="false" />
+    </group>
+    <!--
+        <item android:title="Communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Send" />
+            </menu>
+        </item>
+    -->
+
+</menu>

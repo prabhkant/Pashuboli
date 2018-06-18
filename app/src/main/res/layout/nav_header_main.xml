@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/userImageEditLay"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|right"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="User"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user123@gmail.com"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <biding.animal.com.animalbiding.utilities.CircularImageClass
+            android:id="@+id/user_imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user" />
+
+        <ImageView
+            android:id="@+id/edit_image"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignEnd="@+id/user_imageView"
+            android:layout_alignRight="@+id/user_imageView"
+            android:layout_alignTop="@+id/user_imageView"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/round_primary_border"
+            android:padding="7dp"
+            android:src="@drawable/edit_pic" />
+    </RelativeLayout>
+
+
+</LinearLayout>

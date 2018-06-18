@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="false" android:drawable="@drawable/radio_not_checked" />
+    <item android:state_checked="true" android:drawable="@drawable/radio_checked" />
+</selector>-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:state_pressed="true" >
+        <shape android:shape="oval" >
+            <corners android:radius="2dip" />
+            <stroke android:width="1dip" android:color="#cccccc" />
+            <solid android:color="#f50000" />
+        </shape>
+    </item>
+
+    <item android:state_checked="true">
+        <shape android:shape="oval" >
+            <corners android:radius="2dip" />
+            <stroke android:width="1dip" android:color="#cccccc" />
+            <solid android:color="#f50000" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="oval"  >
+            <corners android:radius="2dip" />
+            <stroke android:width="1dip" android:color="#333333" />
+            <solid android:color="#cccccc" />
+        </shape>
+    </item>
+</selector>

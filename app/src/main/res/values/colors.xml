@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="backgroundGrey">#cccccc</color>
+    <color name="backgroundGreyNew">#F2F2EA</color>
+    <color name="translucentBlack">#80000000</color>
+    <color name="lightGrey">#D3D3D3</color>
+    <color name="darkGrey">#38383A</color>
+    <color name="background_color">#FF9999</color>
+    <color name="white">#FFFFFF</color>
+    <color name="signup_selected">#FF9999</color>
+    <!--<color name="black">#ff000000</color>-->
+
+    <!-- <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#F2F3F4</color>-->
+    <color name="colorsend">#F2F3F4</color>
+    <color name="black">#000000</color>
+    <color name="red">#ed1c24</color>
+    <color name="red_border">#ba3d3b</color>
+    <color name="red_refer">#F14D4B</color>
+    <color name="text_disabled">#959595</color>
+    <color name="new_text_theme">#422117</color>
+
+    <color name="pink">#EB1460</color>
+    <color name="purple">#9C1AB1</color>
+    <color name="deep_purple">#6633B9</color>
+    <color name="indigo">#3D4DB7</color>
+    <color name="blue">#1093F5</color>
+    <color name="light_blue">#00A6F6</color>
+    <color name="cyan">#00BBD5</color>
+    <color name="teal">#009687</color>
+    <color name="green">#46AF4A</color>
+    <color name="light_green">#88C440</color>
+    <color name="lime">#CCDD1E</color>
+    <color name="yellow">#FFEC16</color>
+    <color name="amber">#FFC100</color>
+    <color name="orange">#FF6918</color>
+    <color name="deep_orange">#FF6918</color>
+    <color name="brown">#7A5547</color>
+    <color name="grey">#9D9D9D</color>
+    <color name="grey_trans">#A6000000</color>
+    <color name="grey_trans2">#A6000000</color>
+    <color name="materialyellow">#FFFF8D</color>
+    <color name="otp_background">#e0e0e0</color>
+    <array name="rainbow">
+        <item>@color/red</item>
+        <item>@color/pink</item>
+        <item>@color/purple</item>
+        <item>@color/deep_purple</item>
+        <item>@color/indigo</item>
+        <item>@color/blue</item>
+        <item>@color/light_blue</item>
+        <item>@color/cyan</item>
+        <item>@color/teal</item>
+        <item>@color/green</item>
+        <item>@color/light_green</item>
+        <item>@color/lime</item>
+        <item>@color/yellow</item>
+        <item>@color/amber</item>
+        <item>@color/orange</item>
+        <item>@color/deep_orange</item>
+        <item>@color/brown</item>
+        <item>@color/grey</item>
+    </array>
+
+
+    <color name="actionbar">#3cb879</color>
+    <color name="body_background">#e8e8e8</color>
+    <color name="body_background_green">#82e783</color>
+    <color name="server_status_bar">#2b2b2b</color>
+    <color name="title_gray">#434343</color>
+    <color name="bg_msg_you">#5eb964</color>
+    <color name="bg_msg_from">#e5e7eb</color>
+    <color name="msg_border_color">#a1a1a1</color>
+    <color name="bg_btn_join">#1e6258</color>
+    <color name="bg_msg_input">#e8e8e8</color>
+    <color name="text_msg_input">#626262</color>
+    <color name="lblFromName">#777777</color>
+
+    <color name="more_orange">#f58220</color>
+    <color name="review_text_colour">#616161</color>
+    <color name="review_edit_box">#EFEFEF</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="gray_recent_talk">#E1E1E1</color>
+    <color name="rate_green">#048E07</color>
+    <color name="rate_grey">#6c6c6c</color>
+    <color name="orange_tab">#E75C1A</color>
+    <color name="apply_button_color">#F36543</color>
+    <color name="clear_background">#828282</color>
+    <color name="apply_background">#A4A4A4</color>
+    <color name="recently_talked">#F0F0F0</color>
+    <color name="most_popular">#FFE8D8</color>
+
+    <color name="login_grey">#2e2e2e</color>
+    <color name="detail_orange">#FF4E00</color>
+    <color name="offer_green">#2AC9AA</color>
+    <color name="green_online">#3FB992</color>
+    <color name="light_background_color">#F5F5F5</color>
+    <color name="detail_pastel_orange">#fff3e9</color>
+    <color name="detail_pastel_green">#d7fef6</color>
+    <color name="online_green">#3FB992</color>
+    <color name="online_busy">#ed1c24</color>
+    <color name="offline_grey">#58585B</color>
+    <color name="detail_fab_offline">#58585a</color>
+    <color name="detail_fab_busy">#f1592a</color>
+    <color name="rate_review">#f9bdbd</color>
+    <color name="text_color">#f04d4c</color>
+    <color name="bg_color">#f2f2ea</color>
+    <color name="new_status_bar_color">#757575</color>
+    <color name="dark_gray">#757575</color>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:background="@color/actionbar"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <biding.animal.com.animalbiding.utilities.CircularImageClass
+        android:id="@+id/img_cat"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cow" />
+
+    <TextView
+        android:id="@+id/txt_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cow"
+        android:textColor="@android:color/white" />
+</LinearLayout>

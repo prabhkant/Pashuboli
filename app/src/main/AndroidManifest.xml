@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="biding.animal.com.animalbiding">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:name=".utilities.ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.CattleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.BiddingBaseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.DoctorHomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AnimalDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ViewMyPostActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name=".utilities.SMSReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activities.NotificationActivity"
+            android:label="@string/notification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TotalRequestActivity"
+            android:label="@string/total_request"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DoctorSearchActivity"
+            android:label="@string/doctor_search"
+            android:screenOrientation="portrait" />
+        //--------------------------------------------------------------------------
+        <activity
+            android:name=".activities.MyPostActivity"
+            android:label="@string/my_post"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.BiddingHistroyActivity"
+            android:label="@string/bidding_history"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DoctorProfileActivity"
+            android:label="@string/profile_for_doctor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AssociateActivity"
+            android:label="@string/profile_for_assosiate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.FindCattleActivity"
+            android:label="@string/find_a_cattle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PostCattleActivity"
+            android:label="@string/post_a_cattle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ProfileUpdateActivity"
+            android:label="@string/profile_update"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ProfileUpgradeActivity"
+            android:label="@string/profile_upgrade"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ViewPostCattleDetailRequestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ViewPostCattleRequestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.UserRequestActivity"
+            android:label="@string/user_request"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.EOBDetailActivity"
+            android:label="@string/eob_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ViewEOBRequestActivity"
+            android:label="@string/eob_request"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ViewDoctorRequestActivity"
+            android:label="@string/doctor_request"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ViewDoctorDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.GaushalSearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AssociateHomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ToolBarStyle" />
+        <activity
+            android:name=".adapter.FindEobActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
